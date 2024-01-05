@@ -30,7 +30,7 @@ def predict():
     if prediction[0] == 1: 
         st.success('you survived :thumbsup:')
     else: 
-        st.error('oh i am sorry :(  :thumbsdown:') 
+        st.error('oh i am sorry you die:(  :thumbsdown:') 
 
 trigger = st.button('Predict', on_click=predict)
 
